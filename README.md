@@ -1,10 +1,12 @@
 # Vývoj software a oprava robotického autíčka.
 Tento repozitář slouží jako přehlídka a archiv mé, zatím budoucí, maturitní práce a obhajoby.
-Součástí tohoto repa je také původní maturitní práce, dokument je ale skryt.
+Součástí tohoto repa je také původní maturitní práce, dokument je ale z důvodů soukromí skryt.
  
 Původní maturitní práce se týkala hlavně tvorby auta z hlediska hardware a robotiky.
 Má maturitní práce to má brát spíše z hlediska vývoje software. Ale také opravy a vylepšení.
- 
+
+![Autíčko](images/auticko.jpg)
+
 ## O autíčku
 Autíčko vzniklo jako maturitní práce *Robotické auto* jiného studenta naší školy z roku 2023. Jezdí na čtyřech DC motorech s mecanum koly, takže umí jezdit dopředu, dozadu, do stran i šikmo a otáčet se na místě. Původně se ovládalo přes Bluetooth pomocí mobilní aplikace Dabble a mělo na každé straně ultrazvukový senzor, který auto zastavil před překážkou.
  
@@ -29,7 +31,7 @@ V původní práci jsou kola popsaná jako omni, ve skutečnosti jde ale o mecan
 ## Zapojení
 Deska leží v autě součástkami nahoru a USB-C míří dopředu. Řada pinů VIN … EN je tedy pravá strana auta a řada 3V3 … D23 levá. Popisky pinů odpovídají tomu, co je napsané na desce (D13 = GPIO 13, VP = GPIO 36, VN = GPIO 39).
  
-### Motory¨
+### Motory
 | Motor | Driver | Svorky | Směr | Rychlost |
 |---|---|---|---|---|
 | Přední levý | levý | OUT3 / OUT4 | IN3 ← D4, IN4 ← D16 | ENB ← D17 |
